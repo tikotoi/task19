@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bgimage">
+    <form action="" method="POST" class="form-wrapper" id="registration">
+        <h3 class="formtitle">Create new service</h3>
+      <div class="inputform">
+        <label for="title" class="label">Title*</label>
+        <input type="text" name="title" id="title" placeholder="Post title" required>
+        <span class="error-text" id="error_title"></span>
+      </div>
+      <div class="passw1">
+          <label for="password1" class="label passwordlabel">Password</label>
+          <input type="password" name="password" id="password1" placeholder="Password" required>
+          <i id="toggleIcon" class="fa-solid fa-eye"></i>
+          <span class="error-text" id="error_password"></span>
+      </div>
+      <div class="passw2">
+          <input type="password" name="password2" id="password2" placeholder="Repeat Password" required>
+          <span class="error-text" id="error_password2"></span>
+      </div>
+      <div class="block">
+        <label for="age1" class="label radiolabel">Your age</label>
+        <input type="radio" name="age" id="age1">
+        <label for="age1">18 - 35</label>
+        <input type="radio" name="age" id="age2">
+        <label for="age2">35-55</label>
+        <span class="error-text" id="error_age"></span>
+      </div>
+      <div class="block">
+        <input type="checkbox" name="agree" id="checkagree" required>
+        <label for="checkagree"> I agree terms and conditions</label>
+        <span class="error-text" id="error_agree"></span>
+      </div>
+      <div class="inputform">
+        <label for="description" class="label">Description*</label>
+        <textarea name="description" id="description" placeholder="Discription"></textarea>
+        <span class="error-text" id="error_description"></span>
+    </div>
+    <button type="reset" class="button">Reset</button>
+    <button type="submit" class="button">Send</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

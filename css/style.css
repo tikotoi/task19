@@ -1,0 +1,86 @@
+.bgimage {
+    background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+  
+  .label{
+      width: 100%;
+      max-width: 450px;
+  }
+  
+  .inputform {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px;
+  }
+  
+  .label{
+      margin-bottom: 10px;
+      color: #2b132b;
+  }
+  
+  .passw2{
+      margin-bottom: 40px;
+      margin-top: 16px;
+  }
+  
+  .passwordlabel {
+      display: block;
+  }
+  
+  .radiolabel {
+      display: block;
+  }
+  
+  .block {
+      margin-bottom: 40px;
+  }
+  
+  .form-wrapper {
+      max-width: 600px;
+      width: 100%;
+      background-color: #ffff;
+      opacity: 60%;
+      margin: auto;
+      padding: 30px;
+      margin-top: 50px;
+      border-radius: 5%;
+  }
+  
+  .formtitle {
+      font-size: 30px;
+      color: #1f1958;
+      font-weight: bolder;
+      margin-bottom: 16px;
+      text-align: center;
+  }
+  
+  .error-text{
+      font-style: initial;
+      color: red;
+      display: block;
+  }
+  
+  #toggleIcon {
+      cursor: pointer;
+  }
+  
+  #title, #password1, #password2,#description {
+      border: none;
+      border-bottom:2px solid #1f1958; 
+      outline: none;
+  }
+  .button{
+      width: 70px;
+      height: 30px;
+      border-radius: 30px;
+      margin-right: 16px;
+      background-color: #2b132b;
+      color: #ffff;
+      border: none;
+      cursor: pointer;
+  }
