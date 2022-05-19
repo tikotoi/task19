@@ -6,7 +6,7 @@ document.getElementById('registration').addEventListener('submit', function (eve
 
     let title = document.getElementById('title').value;
 
-    if (title.length < 4 || title == '' || typeof title ==='string') {
+    if (title.length < 4 || title == '') {
         errors.title = 'Title can not be empty, numbers and must be more then 4 characters';
     }
 
